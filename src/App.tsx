@@ -1,21 +1,26 @@
+import { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import LandingLayout from './layouts/LandingLayout'
 import Landing from './pages/Landing'
-import BlogLayout from './layouts/BlogLayout'
-import Blog from './pages/Blog'
-import BlogDashboard from './pages/Dashboard/Blog/Blog'
-import BlogForm from './pages/Dashboard/Blog/Form'
-import DetailBlog from './pages/DetailBlog'
-import NotFoundPage from './pages/NotFoundPage'
-import AuthLayout from './layouts/AuthLayout'
-import Login from './pages/Login'
-import DashboardLayout from './layouts/DashboardLayout'
-import Dashboard from './pages/Dashboard/Dashboard'
-import ProtectedRoute from './components/ProtectedRoute'
+
+// Everything but the landing desktop loads on demand, so visitors of the portfolio
+// don't download the dashboard, the editor or the charts.
+const BlogLayout = lazy(() => import('./layouts/BlogLayout'))
+const Blog = lazy(() => import('./pages/Blog'))
+const DetailBlog = lazy(() => import('./pages/DetailBlog'))
+const AuthLayout = lazy(() => import('./layouts/AuthLayout'))
+const Login = lazy(() => import('./pages/Login'))
+const ProtectedRoute = lazy(() => import('./components/ProtectedRoute'))
+const DashboardLayout = lazy(() => import('./layouts/DashboardLayout'))
+const Dashboard = lazy(() => import('./pages/Dashboard/Dashboard'))
+const BlogDashboard = lazy(() => import('./pages/Dashboard/Blog/Blog'))
+const BlogForm = lazy(() => import('./pages/Dashboard/Blog/Form'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 function App() {
 
   return (
+    <Suspense fallback={null}>
     <Routes>
       <Route element={<LandingLayout />}>
         <Route path="/" element={<Landing />} />
@@ -42,6 +47,7 @@ function App() {
       
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
+    </Suspense>
   )
 }
 

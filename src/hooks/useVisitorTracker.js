@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { trackVisitor } from '../services/visitorsService';
 import { useLocation } from 'react-router-dom';
 
 const useVisitorTracker = (pageName) => {
@@ -11,6 +10,8 @@ const useVisitorTracker = (pageName) => {
         if (hasTracked.current) return;
 
         const track = async () => {
+            // Loaded on demand so Firebase stays out of the first download.
+            const { trackVisitor } = await import('../services/visitorsService');
             await trackVisitor({
                 path: location.pathname,
                 page: pageName

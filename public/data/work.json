@@ -6,7 +6,12 @@
             "Frontend Developer"
         ],
         "startDate": "August 2022",
-        "endDate": null
+        "endDate": "January 2026",
+        "projects": [
+            1,
+            2,
+            3
+        ]
     },
     {
         "id": 2,
@@ -15,7 +20,10 @@
             "Backend Developer Intern"
         ],
         "startDate": "September 2024",
-        "endDate": "December 2024"
+        "endDate": "December 2024",
+        "projects": [
+            9
+        ]
     },
     {
         "id": 3,
@@ -38,7 +46,7 @@
     },
     {
         "id": 5,
-        "name": "Bapppeda Provinsi Goorntalo",
+        "name": "Bappeda Provinsi Gorontalo",
         "role": [
             "Programmer"
         ],
@@ -52,6 +60,16 @@
             "Programmer"
         ],
         "startDate": "January 2026",
-        "endDate": null
+        "endDate": "June 2026"
+    },
+    {
+        "id": 7,
+        "name": "Kominfo Provinsi Gorontalo",
+        "role": [
+            "Software Engineer"
+        ],
+        "startDate": "Februari 2026",
+        "endDate": null,
+        "highlights": "Building GRHM (province-wide school admissions, 20,000+ registrations), Webuild (50 OPD websites) and ESIGN, the province's electronic signature platform."
     }
 ]

@@ -18,6 +18,16 @@ jobs:
           node-version: '26.2.0' # Sesuaikan dengan versi Node.js Anda
 
       - name: Install & Build
+        # Which desktop apps to show (see .env.example). Unset repository variables fall back to the defaults.
+        env:
+          VITE_SHOW_ABOUT: ${{ vars.VITE_SHOW_ABOUT }}
+          VITE_SHOW_PROJECTS: ${{ vars.VITE_SHOW_PROJECTS }}
+          VITE_SHOW_EXPERIENCE: ${{ vars.VITE_SHOW_EXPERIENCE }}
+          VITE_SHOW_STACK: ${{ vars.VITE_SHOW_STACK }}
+          VITE_SHOW_NOTES: ${{ vars.VITE_SHOW_NOTES }}
+          VITE_SHOW_SPOTIFY: ${{ vars.VITE_SHOW_SPOTIFY }}
+          VITE_SHOW_TERMINAL: ${{ vars.VITE_SHOW_TERMINAL }}
+          VITE_SHOW_CONTACT: ${{ vars.VITE_SHOW_CONTACT }}
         run: |
           npm install
           npm run build

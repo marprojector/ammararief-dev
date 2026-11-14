@@ -1,0 +1,419 @@
+{
+    "_readme": "Tech stack shown in the Tech Stack window and the terminal. level: 0-100 or null (shows as a dash). experience: free text or null. match: extra names used to count projects whose stack lists this technology.",
+    "categories": [
+        {
+            "id": "frontend",
+            "name": "Frontend",
+            "items": [
+                {
+                    "name": "Vue",
+                    "kind": "Framework",
+                    "level": 90,
+                    "experience": "2 years",
+                    "match": [
+                        "VueJS"
+                    ],
+                    "keywords": [
+                        "JavaScript",
+                        "Vue Router",
+                        "Composition API",
+                        "Single Page Applications"
+                    ]
+                },
+                {
+                    "name": "React",
+                    "kind": "Library",
+                    "level": 80,
+                    "experience": "1 year",
+                    "match": [
+                        "ReactJS"
+                    ],
+                    "keywords": [
+                        "JavaScript",
+                        "JSX",
+                        "Hooks",
+                        "State Management",
+                        "React Router"
+                    ]
+                },
+                {
+                    "name": "Inertia",
+                    "kind": "Framework",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Laravel",
+                        "Vue",
+                        "React"
+                    ]
+                },
+                {
+                    "name": "Blade",
+                    "kind": "Templating",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Laravel",
+                        "Server-rendered pages"
+                    ]
+                },
+                {
+                    "name": "TypeScript",
+                    "kind": "Language",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "JavaScript",
+                    "kind": "Language",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "kind": "Styling",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "Leaflet",
+                    "kind": "Maps & GIS",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "GeoJSON",
+                        "Zoning maps",
+                        "Evacuation routes"
+                    ]
+                },
+                {
+                    "name": "GSAP",
+                    "kind": "Animation",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Timelines",
+                        "Scroll animations"
+                    ]
+                },
+                {
+                    "name": "Framer Motion",
+                    "kind": "Animation",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "React",
+                        "Transitions"
+                    ]
+                },
+                {
+                    "name": "Vite",
+                    "kind": "Build tool",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Bundling",
+                        "Dev server"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "backend",
+            "name": "Backend",
+            "items": [
+                {
+                    "name": "Laravel",
+                    "kind": "Framework",
+                    "level": 95,
+                    "experience": "3 years",
+                    "keywords": [
+                        "PHP",
+                        "MVC",
+                        "Eloquent ORM",
+                        "RESTful APIs",
+                        "Blade Templating"
+                    ]
+                },
+                {
+                    "name": "NestJS",
+                    "kind": "Framework",
+                    "level": 80,
+                    "experience": "1 year",
+                    "keywords": [
+                        "TypeScript",
+                        "Express",
+                        "RESTful APIs",
+                        "Microservices",
+                        "Dependency Injection"
+                    ]
+                },
+                {
+                    "name": "PHP",
+                    "kind": "Language",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "Express",
+                    "kind": "Framework",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Node.js"
+                    ]
+                },
+                {
+                    "name": "Laravel Reverb",
+                    "kind": "Realtime",
+                    "level": null,
+                    "experience": null,
+                    "match": [
+                        "Reverb"
+                    ],
+                    "keywords": [
+                        "WebSockets",
+                        "Real-time announcements"
+                    ]
+                },
+                {
+                    "name": "Kafka",
+                    "kind": "Messaging",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Event streaming"
+                    ]
+                },
+                {
+                    "name": "PKI",
+                    "kind": "Security",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Electronic signatures"
+                    ]
+                },
+                {
+                    "name": "SSO",
+                    "kind": "Security",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Single sign-on"
+                    ]
+                },
+                {
+                    "name": "Python",
+                    "kind": "Language",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Basics",
+                        "Scripting"
+                    ]
+                },
+                {
+                    "name": "Laravel Queue",
+                    "kind": "Background jobs",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Redis",
+                        "Bulk signing",
+                        "Async processing"
+                    ]
+                },
+                {
+                    "name": "API integration",
+                    "kind": "Practice",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Dapodik",
+                        "SIPD",
+                        "BSrE",
+                        "Third-party APIs"
+                    ]
+                },
+                {
+                    "name": "Payment gateway",
+                    "kind": "Payments",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "QRIS",
+                        "Virtual account",
+                        "E-wallet"
+                    ]
+                },
+                {
+                    "name": "Multi-tenancy",
+                    "kind": "Architecture",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Hostname per tenant",
+                        "Per-tenant data isolation"
+                    ]
+                },
+                {
+                    "name": "Firebase Auth",
+                    "kind": "Auth",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Firebase"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "database",
+            "name": "Database",
+            "items": [
+                {
+                    "name": "Database design",
+                    "kind": "Practice",
+                    "level": 90,
+                    "experience": "3 years",
+                    "keywords": [
+                        "SQL",
+                        "ERD",
+                        "Normalization",
+                        "Backup & Recovery"
+                    ]
+                },
+                {
+                    "name": "MySQL",
+                    "kind": "Relational",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "SQL"
+                    ]
+                },
+                {
+                    "name": "PostgreSQL",
+                    "kind": "Relational",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "SQL"
+                    ]
+                },
+                {
+                    "name": "Firebase Firestore",
+                    "kind": "Document",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "NoSQL"
+                    ]
+                },
+                {
+                    "name": "Redis",
+                    "kind": "Key-value",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Cache",
+                        "Queues"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "devops",
+            "name": "DevOps",
+            "items": [
+                {
+                    "name": "Git",
+                    "kind": "Version control",
+                    "level": 90,
+                    "experience": "3 years",
+                    "keywords": [
+                        "Branching",
+                        "Merging",
+                        "Pull Requests",
+                        "Code Reviews"
+                    ]
+                },
+                {
+                    "name": "GitHub",
+                    "kind": "Platform",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "GitHub Projects",
+                        "Pull Requests"
+                    ]
+                },
+                {
+                    "name": "GitHub Actions",
+                    "kind": "CI/CD",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Automated deploys"
+                    ]
+                },
+                {
+                    "name": "GitLab Runner",
+                    "kind": "CI/CD",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "GitLab CI",
+                        "Pipelines",
+                        "Automated deploys"
+                    ]
+                },
+                {
+                    "name": "Docker",
+                    "kind": "Containers",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Images",
+                        "Compose"
+                    ]
+                },
+                {
+                    "name": "GitLab",
+                    "kind": "Platform",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Merge requests",
+                        "Repositories"
+                    ]
+                },
+                {
+                    "name": "Linux server",
+                    "kind": "Server",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "SSH",
+                        "Deployment"
+                    ]
+                },
+                {
+                    "name": "Nginx",
+                    "kind": "Web server",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Reverse proxy",
+                        "Virtual hosts"
+                    ]
+                }
+            ]
+        }
+    ]
+}

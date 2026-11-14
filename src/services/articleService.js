@@ -26,6 +26,21 @@ export const getAllArticles = async () => {
     }
 };
 
+/**
+ * @param {number} count
+ * @returns {Promise<Array>} The newest `count` articles.
+ */
+export const getLatestArticles = async (count) => {
+    try {
+        const q = query(articlesCollectionRef, orderBy('date', 'desc'), limit(count));
+        const querySnapshot = await getDocs(q);
+        return querySnapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+    } catch (error) {
+        console.error("Error di service getLatestArticles: ", error);
+        throw new Error("Gagal mengambil data artikel.");
+    }
+};
+
 const slugify = (text) => {
     return text
         .toString()
