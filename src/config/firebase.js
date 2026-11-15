@@ -1,22 +1,24 @@
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics, isSupported } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
-
+// Set these in .env.local (git-ignored) or as repository variables for the deployed build.
+// See .env.example for the list.
 const firebaseConfig = {
-  apiKey: "AIzaSyB0Y2FBLsQ4yNFnodhtK9S7mjVtPq5x1gM",
-  authDomain: "portofolio-6db9c.firebaseapp.com",
-  projectId: "portofolio-6db9c",
-  storageBucket: "portofolio-6db9c.firebasestorage.app",
-  messagingSenderId: "683244348997",
-  appId: "1:683244348997:web:cccfef1b04a64a2d24252c",
-  measurementId: "G-3DRVQLQ4X1"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+
+// Analytics is unavailable in some environments (SSR, blocked third-party storage); never let it break the app.
+isSupported().then((ok) => ok && getAnalytics(app));
 
 export const db = getFirestore(app);
 

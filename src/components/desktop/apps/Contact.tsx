@@ -71,7 +71,7 @@ export default function Contact() {
       <div className="msg">
         <p>
           {t(
-            "I build and run web platforms for government, campuses and local businesses in Gorontalo. If you have a system to build, a backend to scale or a team that needs another engineer, email me and I'll reply within a couple of days.",
+            "I build software across web, desktop and local AI tooling. If you have a system to build, a tool that needs automating or a team that needs another engineer, email me and I'll reply within a couple of days.",
           )}
         </p>
         <div>

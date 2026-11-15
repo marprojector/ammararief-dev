@@ -1,590 +1,151 @@
 [
-    {
-        "id": 1,
-        "name": "SIDAPRO FSB UNG",
-        "company": "FSB UNG",
-        "year": "2022",
-        "role": [
-            "Frontend Developer"
-        ],
-        "image": "sidapro.png",
-        "desc": "Application that can manage the administrative process for students and lecturers regarding the submission of thesis titles to the judiciary.",
-        "link": "https://fsb.sidapro.com/",
-        "impact": {
-            "purpose": "Take the thesis paperwork at FSB UNG, from title submission to the judiciary, off paper for students, lecturers and staff.",
-            "saving": {
-                "value": "≈50%",
-                "label": "less admin time for study-program staff",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Title proposals handed in on paper",
-                    "after": "Titles submitted online"
-                },
-                {
-                    "before": "Students chasing lecturers for signatures",
-                    "after": "Approvals given online"
-                },
-                {
-                    "before": "Progress tracked by asking around",
-                    "after": "Status visible to students and staff"
-                },
-                {
-                    "before": "Judiciary lists recapped by hand",
-                    "after": "Data ready for the judiciary"
-                },
-                {
-                    "before": "Records filed in folders",
-                    "after": "Searchable digital records"
-                }
-            ]
-        }
-    },
-    {
-        "id": 2,
-        "name": "SIATU PPG UNG",
-        "company": "PPG UNG",
-        "year": "2022",
-        "role": [
-            "Frontend Developer"
-        ],
-        "image": "siatu.png",
-        "desc": "Application that can manage the registration process, scheduling, and learning for PPG students.",
-        "link": "https://ppg.siat.ung.ac.id/"
-    },
-    {
-        "id": 3,
-        "name": "Pusat Data Fakultas FSB UNG",
-        "company": "FSB UNG",
-        "year": "2023",
-        "role": [
-            "Backend Developer"
-        ],
-        "image": "pdf.png",
-        "desc": "Application that can collect faculty data for lecturer and student accreditation purposes.",
-        "link": "https://pdf.fsb.ung.ac.id/"
-    },
-    {
-        "id": 4,
-        "name": "EMPATHY",
-        "company": "GEMASTIK ",
-        "year": "2023",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "empathy.png",
-        "desc": "Application that makes it easy to order ambulances effectively and efficiently using the voice recording method.",
-        "link": "#"
-    },
-    {
-        "id": 5,
-        "name": "Sistem Informasi Geografis Desa",
-        "company": "Desa Molingkapoto Selatan",
-        "year": "2021",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "webdesa.png",
-        "desc": "Application that makes it easier for villages to publish village activities and is equipped with GIS features to display certain maps.",
-        "link": "https://gmm-molsel.com/"
-    },
-    {
-        "id": 6,
-        "name": "WebGis KKN Destana",
-        "company": "Kecamatan Bulawa",
-        "year": "2024",
-        "role": [
-            "Project Manager"
-        ],
-        "image": "gistana.png",
-        "desc": "Application that displays data on evacuation routes and gathering points for each village in Bulawa District.",
-        "link": "https://gistana.github.io/"
-    },
-    {
-        "id": 7,
-        "name": "Hivisitscreen",
-        "company": "-",
-        "year": "2024",
-        "role": [
-            "Project Manager"
-        ],
-        "image": "hivisit.png",
-        "desc": "Application to make it easier to order HIV screening and several other medical features.",
-        "link": "https://hivisitscreen.id/"
-    },
-    {
-        "id": 8,
-        "name": "RistiApp",
-        "company": "UKM Risti UNG",
-        "year": "2023",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "hivisit.png",
-        "desc": "Application to make it easier to having an information about UKM Risti UNG.",
-        "link": "https://risti.ung.ac.id/"
-    },
-    {
-        "id": 9,
-        "name": "Gorontalo Satu Data",
-        "logo": "pemprov.webp",
-        "company": "BAPPPEDA Provinsi Gorontalo",
-        "year": "2024",
-        "role": [
-            "Backend Developer"
-        ],
-        "image": "gsd.png",
-        "desc": "Application to make it easier to having an information about UKM Risti UNG.",
-        "link": "#"
-    },
-    {
-        "id": 10,
-        "name": "GoVillage",
-        "company": "Bangkit Digital Gorontalo",
-        "year": "2025",
-        "role": [
-            "Backend Developer",
-            "Project Manager"
-        ],
-        "image": "govillage.png",
-        "desc": "Application designed to digitize village administration and public services to enhance efficiency and accessibility for rural communities.",
-        "link": "demo.go-village.id",
-        "impact": {
-            "purpose": "Move village administration and public services online, so residents get letters and information without repeated trips to the village office.",
-            "saving": {
-                "value": "≈60%",
-                "label": "less time to issue a village letter",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Visiting the office to request a letter",
-                    "after": "Requests submitted online"
-                },
-                {
-                    "before": "Letters typed from scratch each time",
-                    "after": "Generated from standard templates"
-                },
-                {
-                    "before": "Resident records kept on paper",
-                    "after": "Digital population data"
-                },
-                {
-                    "before": "No way to know where a request stands",
-                    "after": "Request status residents can follow"
-                },
-                {
-                    "before": "Announcements on the notice board only",
-                    "after": "Village information published online"
-                }
-            ]
-        }
-    },
-    {
-        "id": 11,
-        "name": "SINERGI",
-        "logo": "pemprov.webp",
-        "company": "Bapppeda Provinsi Gorontalo",
-        "year": "2025",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "sinergi.png",
-        "desc": "Application that facilitates regional development planning through Working Paper (Kertas Kerja) features with real-time SIPD integration.",
-        "link": "#"
-    },
-    {
-        "id": 12,
-        "name": "SIH3",
-        "company": "Bapppeda Provinsi Gorontalo",
-        "logo": "pemprov.webp",
-        "year": "2025",
-        "role": [
-            "Backend Developer"
-        ],
-        "image": "sih3.png",
-        "desc": "Integrated platform for Hydrology, Hydrogeology, and Hydrometeorology Information System (SIH3) that facilitates water resource data management in collaboration with PUPR, River Basin Organization, and BMKG.",
-        "link": "#"
-    },
-    {
-        "id": 13,
-        "name": "E-Commerce Kotamobagu",
-        "company": "-",
-        "year": "2025",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "ecommerce.jpeg",
-        "desc": "E-commerce platform specifically designed for Kotamobagu city to empower local MSMEs and facilitate digital transactions for regional products.",
-        "link": "#"
-    },
-    {
-        "id": 14,
-        "name": "Dinul Islam - Digital Lettering",
-        "company": "Universitas Muhammadiyah Gorontalo",
-        "year": "2026",
-        "role": [
-            "Fullstack Developer"
-        ],
-        "image": "dilettering.jpeg",
-        "logo": "umgo-mark.png",
-        "desc": "Digital lettering application designed to streamline administrative correspondence and document management for the Dinul Islam program at Universitas Muhammadiyah Gorontalo.",
-        "link": "#"
-    },
-    {
-        "id": 15,
-        "name": "GRHM",
-        "company": "Kominfo Provinsi Gorontalo",
-        "year": "2026",
-        "role": [
-            "Software Engineer"
-        ],
-        "image": "",
-        "logo": "grhm-mark.svg",
-        "desc": "Gerakan Rakyati Hulonthalo Mosikola: the province-wide new-student admission (SPMB) system for every public SMA and SMK in Gorontalo, with Dapodik sync, zoning maps and real-time announcements.",
-        "link": "https://grhm.gorontaloprov.go.id",
-        "stack": [
-            "Laravel",
-            "React",
-            "Kafka",
-            "Reverb"
-        ],
-        "metrics": [
-            {
-                "value": "15,000+",
-                "label": "students placed"
-            },
-            {
-                "value": "20,000+",
-                "label": "registrations handled"
-            },
-            {
-                "value": "112",
-                "label": "public SMA & SMK schools"
-            }
-        ],
-        "gallery": [
-            {
-                "src": "grhm/1.webp",
-                "caption": "Home page for the 2026/2027 intake",
-                "url": "https://grhm.gorontaloprov.go.id/"
-            },
-            {
-                "src": "grhm/2.webp",
-                "caption": "Live registrant distribution across 112 schools and 26,312 seats",
-                "url": "https://grhm.gorontaloprov.go.id/distribution"
-            },
-            {
-                "src": "grhm/3.webp",
-                "caption": "School zoning map",
-                "url": "https://grhm.gorontaloprov.go.id/zoning-map"
-            },
-            {
-                "src": "grhm/4.webp",
-                "caption": "School directory",
-                "url": "https://grhm.gorontaloprov.go.id/schools"
-            }
-        ],
-        "impact": {
-            "purpose": "Replace school-by-school paper registration with one provincial system, so every applicant applies once, schools verify online and placement follows zoning and quotas openly.",
-            "saving": {
-                "value": "≈60%",
-                "label": "less admin work for school admission committees",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Queuing at each school with paper files",
-                    "after": "One online account with NIK and NISN, from anywhere"
-                },
-                {
-                    "before": "Documents checked by hand at the counter",
-                    "after": "Uploads verified online by the school team"
-                },
-                {
-                    "before": "Distance to school measured by hand",
-                    "after": "Zoning map with domicile check built in"
-                },
-                {
-                    "before": "Quota recaps in each school's spreadsheet",
-                    "after": "Live distribution across all 112 schools"
-                },
-                {
-                    "before": "Results pinned on notice boards",
-                    "after": "Real-time results and automatic notifications"
-                },
-                {
-                    "before": "Student data typed in again",
-                    "after": "Synced from Dapodik"
-                }
-            ]
-        }
-    },
-    {
-        "id": 16,
-        "name": "E-Sign Gorontalo",
-        "company": "Kominfo Provinsi Gorontalo",
-        "year": "2026",
-        "role": [
-            "Software Engineer"
-        ],
-        "image": "",
-        "logo": "esign-mark.png",
-        "desc": "Electronic signature platform for the Gorontalo provincial government: sequential approval workflows, bulk signing, chunked PDF upload and a public API so other government apps can sign through SSO, with signatures backed by BSrE (BSSN) electronic certificates.",
-        "link": "https://esign.gorontaloprov.go.id",
-        "status": "User acceptance testing",
-        "stack": [
-            "Laravel",
-            "Vue",
-            "PKI",
-            "SSO"
-        ],
-        "metrics": [
-            {
-                "value": "All OPD",
-                "label": "& civil servants, target rollout"
-            },
-            {
-                "value": "Bulk",
-                "label": "async signing via API"
-            },
-            {
-                "value": "197",
-                "label": "organisation units connected"
-            }
-        ],
-        "gallery": [
-            {
-                "src": "esign/1.webp",
-                "caption": "Landing page with SSO sign-in",
-                "url": "https://esign.gorontaloprov.go.id/"
-            },
-            {
-                "src": "esign/2.webp",
-                "caption": "Live service statistics",
-                "url": "https://esign.gorontaloprov.go.id/"
-            },
-            {
-                "src": "esign/3.webp",
-                "caption": "Feature tour, from submission to public API",
-                "url": "https://esign.gorontaloprov.go.id/"
-            },
-            {
-                "src": "esign/4.webp",
-                "caption": "Public verification of signed PDFs",
-                "url": "https://esign.gorontaloprov.go.id/verifikasi"
-            }
-        ],
-        "impact": {
-            "purpose": "Let provincial offices draft, approve and sign official documents without printing them and carrying them from desk to desk.",
-            "saving": {
-                "value": "≈75%",
-                "label": "shorter turnaround per official document",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Printed drafts carried between offices for initials",
-                    "after": "Sequential approvals routed online"
-                },
-                {
-                    "before": "Letter numbers taken from a manual register",
-                    "after": "Automatic document numbering"
-                },
-                {
-                    "before": "Signing stacks of letters one by one",
-                    "after": "Bulk signing in one action"
-                },
-                {
-                    "before": "Calling the issuer to confirm a document",
-                    "after": "Public PDF verification with a BSrE certificate"
-                },
-                {
-                    "before": "Each app handling signatures on its own",
-                    "after": "One signing API behind SSO"
-                },
-                {
-                    "before": "Paper, printing and courier costs",
-                    "after": "Documents stay digital end to end"
-                }
-            ]
-        }
-    },
-    {
-        "id": 17,
-        "name": "Webuild",
-        "company": "Kominfo Provinsi Gorontalo",
-        "year": "2026",
-        "role": [
-            "Software Engineer"
-        ],
-        "image": "",
-        "logo": "webuild-mark.svg",
-        "desc": "Multi-tenant web builder that runs every OPD's public website from one platform: one hostname per unit, themeable section builder, strict per-app data isolation and server-rendered pages for SEO.",
-        "link": "https://wb.gorontaloprov.go.id",
-        "stack": [
-            "Laravel",
-            "Vue",
-            "Inertia",
-            "Blade"
-        ],
-        "metrics": [
-            {
-                "value": "50",
-                "label": "OPD websites"
-            },
-            {
-                "value": "1,000/day",
-                "label": "visitors"
-            },
-            {
-                "value": "46",
-                "label": "apps & portals in the catalog"
-            }
-        ],
-        "gallery": [
-            {
-                "src": "webuild/1.webp",
-                "caption": "Webuild master portal",
-                "url": "https://wb.gorontaloprov.go.id/"
-            },
-            {
-                "src": "webuild/2.webp",
-                "caption": "Catalog of 46 OPD apps and portals",
-                "url": "https://wb.gorontaloprov.go.id/aplikasi"
-            },
-            {
-                "src": "webuild/3.webp",
-                "caption": "Built on Webuild: Dinas Kominfotik",
-                "url": "https://kominfotik.gorontaloprov.go.id/"
-            },
-            {
-                "src": "webuild/4.webp",
-                "caption": "Built on Webuild: Museum Purbakala, with online visit booking",
-                "url": "https://museum.gorontaloprov.go.id/"
-            }
-        ],
-        "impact": {
-            "purpose": "Run every OPD's public website from one platform instead of each office building, hosting and maintaining its own.",
-            "saving": {
-                "value": "≈80%",
-                "label": "less effort to launch and maintain an OPD website",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Each office commissions its own website",
-                    "after": "A new site is a new tenant with a theme"
-                },
-                {
-                    "before": "Dozens of separate servers and CMS versions",
-                    "after": "One codebase; one update reaches every site"
-                },
-                {
-                    "before": "Layouts and quality differ per office",
-                    "after": "Standard sections, accessibility tools and provincial branding"
-                },
-                {
-                    "before": "Security patches applied site by site",
-                    "after": "Patched once, with data isolated per app"
-                },
-                {
-                    "before": "Content changes wait for a developer",
-                    "after": "Staff edit pages in the section builder"
-                },
-                {
-                    "before": "Services scattered and hard to find",
-                    "after": "One catalog and search across OPD portals"
-                }
-            ]
-        }
-    },
-    {
-        "id": 18,
-        "name": "DK Mart Marketplace",
-        "company": "DK Mart",
-        "year": "2026",
-        "role": [
-            "Software Engineer"
-        ],
-        "image": "dkmart.png",
-        "logo": "dkmart-mark.png",
-        "desc": "Online minimarket for retail and wholesale shopping across DK Mart's three Gorontalo branches: stock synced in real time with each store, delivery from the nearest branch, QRIS, virtual account and e-wallet payments, and business accounts with Net-30 invoices.",
-        "link": "https://dkmart.id",
-        "stack": [
-            "Laravel",
-            "Vue"
-        ],
-        "metrics": [
-            {
-                "value": "3",
-                "label": "branches selling online"
-            },
-            {
-                "value": "Real-time",
-                "label": "stock synced with each store"
-            },
-            {
-                "value": "18,000+",
-                "label": "products in the catalog"
-            }
-        ],
-        "gallery": [
-            {
-                "src": "dkmart/1.webp",
-                "caption": "Storefront for the DK Mart Telaga branch",
-                "url": "https://dkmart.id/"
-            },
-            {
-                "src": "dkmart/2.webp",
-                "caption": "Best sellers with prices per unit",
-                "url": "https://dkmart.id/"
-            },
-            {
-                "src": "dkmart/3.webp",
-                "caption": "Product page with retail and wholesale units",
-                "url": "https://dkmart.id/"
-            },
-            {
-                "src": "dkmart/4.webp",
-                "caption": "Wholesale catalog: 7,210 products in bulk units",
-                "url": "https://dkmart.id/grosir"
-            }
-        ],
-        "impact": {
-            "purpose": "Let households and shop owners buy from DK Mart's branches online, with wholesale pricing for businesses.",
-            "saving": {
-                "value": "≈50%",
-                "label": "less staff time taking orders and checking stock",
-                "estimate": true
-            },
-            "changes": [
-                {
-                    "before": "Orders taken by phone and WhatsApp",
-                    "after": "Self-service catalog of 18,000+ products"
-                },
-                {
-                    "before": "Asking staff whether an item is in stock",
-                    "after": "Real-time stock for each branch"
-                },
-                {
-                    "before": "Wholesale prices quoted by hand",
-                    "after": "Bulk units and prices built into every product"
-                },
-                {
-                    "before": "Cash on delivery only",
-                    "after": "QRIS, virtual account and e-wallet payments"
-                },
-                {
-                    "before": "Handwritten notes for business buyers",
-                    "after": "Automatic invoices with Net-30 terms"
-                },
-                {
-                    "before": "Calling the store to ask about an order",
-                    "after": "Order tracking from processing to delivery"
-                }
-            ]
-        }
-    }
+  {
+    "id": 1,
+    "name": "Bansos Router",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Free, keyless coding models routed to every coding harness through one local endpoint.",
+    "link": "https://github.com/marprojector/bansos-router",
+    "stack": [
+      "TypeScript",
+      "Node.js",
+      "Hono"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "KostKu",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.",
+    "link": "https://github.com/marprojector/kostku-template",
+    "stack": [
+      "TypeScript",
+      "React",
+      "Tailwind CSS"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Herdr",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Systems Engineer"
+    ],
+    "desc": "Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.",
+    "link": "https://github.com/marprojector/herdr-cli",
+    "stack": [
+      "Rust",
+      "TypeScript"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "MarDocs AI",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Document workspace that turns long files into answers, summaries and structured output.",
+    "link": "https://github.com/marprojector/MarDocs-AI",
+    "stack": [
+      "TypeScript",
+      "React"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MARkassar Info",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Local information hub for Makassar, built as a fast, mobile-first web app.",
+    "link": "https://github.com/marprojector/MARkassar-Info",
+    "stack": [
+      "TypeScript",
+      "React"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Edlink Agent",
+    "company": "Universitas Bosowa",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.",
+    "link": "https://github.com/marprojector/edlink-agent",
+    "stack": [
+      "TypeScript",
+      "Telegram Bot API"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Orca",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Git worktree manager that keeps parallel branches isolated and hands work off without conflicts.",
+    "link": "https://github.com/marprojector/orca",
+    "stack": [
+      "TypeScript"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "9drive",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "File storage and sharing layer designed around a single, predictable sync model.",
+    "link": "https://github.com/marprojector/9drive",
+    "stack": [
+      "TypeScript"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Recordly",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Screen recording and playback tooling for capturing product demos and bug reports.",
+    "link": "https://github.com/marprojector/Recordly",
+    "stack": [
+      "TypeScript"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Delisert",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Ordering and delivery front end for food businesses in Makassar.",
+    "link": "https://github.com/marprojector/Delisert.mks",
+    "stack": [
+      "TypeScript",
+      "React"
+    ]
+  }
 ]

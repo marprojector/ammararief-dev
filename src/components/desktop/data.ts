@@ -67,12 +67,12 @@ export const VISIBLE: AppId[] = ORDER.filter((id) => ENABLED[id])
 
 // Selected projects for the Discover slider, in display order. Ids refer to public/data/projects.json.
 export const FEATURED: { id: number; tag: string }[] = [
-  { id: 18, tag: 'An online minimarket for retail and wholesale across three Gorontalo branches.' },
-  { id: 16, tag: 'Electronic signatures for every office in the provincial government.' },
-  { id: 15, tag: 'One admission system for every public SMA and SMK in Gorontalo.' },
-  { id: 17, tag: 'Fifty OPD websites running from one multi-tenant platform.' },
-  { id: 10, tag: 'Village administration and public services, digitized.' },
-  { id: 1, tag: 'Thesis-title submissions, from student to judiciary.' },
+  { id: 1, tag: 'Free, keyless coding models routed to every coding harness through one local endpoint.' },
+  { id: 3, tag: 'Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.' },
+  { id: 2, tag: 'Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.' },
+  { id: 6, tag: 'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.' },
+  { id: 4, tag: 'Document workspace that turns long files into answers, summaries and structured output.' },
+  { id: 5, tag: 'Local information hub for Makassar, built as a fast, mobile-first web app.' },
 ]
 
 export const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
@@ -142,6 +142,6 @@ export function projectsForWork(w: Work, projects: Project[]): Project[] {
 export const statusOf = (p: Project): [string, string, string] =>
   p.status ? [t('In testing'), p.status, 'warn'] : hasLink(p) ? [t('Live'), host(p), 'ok'] : [t('Internal'), t('No public link'), '']
 
-export const TZ = 'Asia/Makassar' // Gorontalo, WITA (UTC+8)
+export const TZ = 'Asia/Makassar' // Makassar, WITA (UTC+8)
 export const isMobile = () => window.matchMedia('(max-width: 760px)').matches
 export const reduced = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches

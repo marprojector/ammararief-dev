@@ -6,25 +6,10 @@
             "name": "Frontend",
             "items": [
                 {
-                    "name": "Vue",
-                    "kind": "Framework",
-                    "level": 90,
-                    "experience": "2 years",
-                    "match": [
-                        "VueJS"
-                    ],
-                    "keywords": [
-                        "JavaScript",
-                        "Vue Router",
-                        "Composition API",
-                        "Single Page Applications"
-                    ]
-                },
-                {
                     "name": "React",
                     "kind": "Library",
-                    "level": 80,
-                    "experience": "1 year",
+                    "level": 90,
+                    "experience": "3 years",
                     "match": [
                         "ReactJS"
                     ],
@@ -37,77 +22,32 @@
                     ]
                 },
                 {
-                    "name": "Inertia",
-                    "kind": "Framework",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Laravel",
-                        "Vue",
-                        "React"
-                    ]
-                },
-                {
-                    "name": "Blade",
-                    "kind": "Templating",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Laravel",
-                        "Server-rendered pages"
-                    ]
-                },
-                {
                     "name": "TypeScript",
                     "kind": "Language",
-                    "level": null,
-                    "experience": null,
-                    "keywords": []
-                },
-                {
-                    "name": "JavaScript",
-                    "kind": "Language",
-                    "level": null,
-                    "experience": null,
-                    "keywords": []
+                    "level": 90,
+                    "experience": "3 years",
+                    "keywords": [
+                        "Types",
+                        "Generics",
+                        "Strict mode"
+                    ]
                 },
                 {
                     "name": "Tailwind CSS",
                     "kind": "Styling",
-                    "level": null,
-                    "experience": null,
+                    "level": 85,
+                    "experience": "2 years",
+                    "keywords": [
+                        "Utility-first CSS",
+                        "Design tokens"
+                    ]
+                },
+                {
+                    "name": "JavaScript",
+                    "kind": "Language",
+                    "level": 85,
+                    "experience": "3 years",
                     "keywords": []
-                },
-                {
-                    "name": "Leaflet",
-                    "kind": "Maps & GIS",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "GeoJSON",
-                        "Zoning maps",
-                        "Evacuation routes"
-                    ]
-                },
-                {
-                    "name": "GSAP",
-                    "kind": "Animation",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Timelines",
-                        "Scroll animations"
-                    ]
-                },
-                {
-                    "name": "Framer Motion",
-                    "kind": "Animation",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "React",
-                        "Transitions"
-                    ]
                 },
                 {
                     "name": "Vite",
@@ -116,95 +56,44 @@
                     "experience": null,
                     "keywords": [
                         "Bundling",
-                        "Dev server"
+                        "HMR"
                     ]
                 }
             ]
         },
         {
             "id": "backend",
-            "name": "Backend",
+            "name": "Backend & Systems",
             "items": [
                 {
-                    "name": "Laravel",
-                    "kind": "Framework",
-                    "level": 95,
+                    "name": "Node.js",
+                    "kind": "Runtime",
+                    "level": 85,
                     "experience": "3 years",
                     "keywords": [
-                        "PHP",
-                        "MVC",
-                        "Eloquent ORM",
-                        "RESTful APIs",
-                        "Blade Templating"
+                        "REST APIs",
+                        "Streams",
+                        "CLI tooling"
                     ]
                 },
                 {
-                    "name": "NestJS",
-                    "kind": "Framework",
-                    "level": 80,
+                    "name": "Rust",
+                    "kind": "Language",
+                    "level": 70,
                     "experience": "1 year",
                     "keywords": [
-                        "TypeScript",
-                        "Express",
-                        "RESTful APIs",
-                        "Microservices",
-                        "Dependency Injection"
+                        "CLI applications",
+                        "Native desktop apps",
+                        "Systems programming"
                     ]
                 },
                 {
-                    "name": "PHP",
+                    "name": "Swift",
                     "kind": "Language",
-                    "level": null,
-                    "experience": null,
-                    "keywords": []
-                },
-                {
-                    "name": "Express",
-                    "kind": "Framework",
-                    "level": null,
-                    "experience": null,
+                    "level": 65,
+                    "experience": "1 year",
                     "keywords": [
-                        "Node.js"
-                    ]
-                },
-                {
-                    "name": "Laravel Reverb",
-                    "kind": "Realtime",
-                    "level": null,
-                    "experience": null,
-                    "match": [
-                        "Reverb"
-                    ],
-                    "keywords": [
-                        "WebSockets",
-                        "Real-time announcements"
-                    ]
-                },
-                {
-                    "name": "Kafka",
-                    "kind": "Messaging",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Event streaming"
-                    ]
-                },
-                {
-                    "name": "PKI",
-                    "kind": "Security",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Electronic signatures"
-                    ]
-                },
-                {
-                    "name": "SSO",
-                    "kind": "Security",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Single sign-on"
+                        "Native macOS apps"
                     ]
                 },
                 {
@@ -212,21 +101,7 @@
                     "kind": "Language",
                     "level": null,
                     "experience": null,
-                    "keywords": [
-                        "Basics",
-                        "Scripting"
-                    ]
-                },
-                {
-                    "name": "Laravel Queue",
-                    "kind": "Background jobs",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Redis",
-                        "Bulk signing",
-                        "Async processing"
-                    ]
+                    "keywords": []
                 },
                 {
                     "name": "API integration",
@@ -234,95 +109,49 @@
                     "level": null,
                     "experience": null,
                     "keywords": [
-                        "Dapodik",
-                        "SIPD",
-                        "BSrE",
-                        "Third-party APIs"
-                    ]
-                },
-                {
-                    "name": "Payment gateway",
-                    "kind": "Payments",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "QRIS",
-                        "Virtual account",
-                        "E-wallet"
-                    ]
-                },
-                {
-                    "name": "Multi-tenancy",
-                    "kind": "Architecture",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Hostname per tenant",
-                        "Per-tenant data isolation"
-                    ]
-                },
-                {
-                    "name": "Firebase Auth",
-                    "kind": "Auth",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Firebase"
+                        "REST",
+                        "Webhooks",
+                        "Rate limiting"
                     ]
                 }
             ]
         },
         {
-            "id": "database",
-            "name": "Database",
+            "id": "data",
+            "name": "Data",
             "items": [
+                {
+                    "name": "PostgreSQL",
+                    "kind": "Database",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "SQLite",
+                    "kind": "Database",
+                    "level": null,
+                    "experience": null,
+                    "keywords": []
+                },
+                {
+                    "name": "Firebase",
+                    "kind": "Backend as a service",
+                    "level": null,
+                    "experience": null,
+                    "keywords": [
+                        "Firestore",
+                        "Auth"
+                    ]
+                },
                 {
                     "name": "Database design",
                     "kind": "Practice",
-                    "level": 90,
-                    "experience": "3 years",
-                    "keywords": [
-                        "SQL",
-                        "ERD",
-                        "Normalization",
-                        "Backup & Recovery"
-                    ]
-                },
-                {
-                    "name": "MySQL",
-                    "kind": "Relational",
                     "level": null,
                     "experience": null,
                     "keywords": [
-                        "SQL"
-                    ]
-                },
-                {
-                    "name": "PostgreSQL",
-                    "kind": "Relational",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "SQL"
-                    ]
-                },
-                {
-                    "name": "Firebase Firestore",
-                    "kind": "Document",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "NoSQL"
-                    ]
-                },
-                {
-                    "name": "Redis",
-                    "kind": "Key-value",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Cache",
-                        "Queues"
+                        "Schema modelling",
+                        "Indexing"
                     ]
                 }
             ]
@@ -334,24 +163,9 @@
                 {
                     "name": "Git",
                     "kind": "Version control",
-                    "level": 90,
+                    "level": 85,
                     "experience": "3 years",
-                    "keywords": [
-                        "Branching",
-                        "Merging",
-                        "Pull Requests",
-                        "Code Reviews"
-                    ]
-                },
-                {
-                    "name": "GitHub",
-                    "kind": "Platform",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "GitHub Projects",
-                        "Pull Requests"
-                    ]
+                    "keywords": []
                 },
                 {
                     "name": "GitHub Actions",
@@ -359,18 +173,8 @@
                     "level": null,
                     "experience": null,
                     "keywords": [
-                        "Automated deploys"
-                    ]
-                },
-                {
-                    "name": "GitLab Runner",
-                    "kind": "CI/CD",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "GitLab CI",
-                        "Pipelines",
-                        "Automated deploys"
+                        "Build pipelines",
+                        "Deploy workflows"
                     ]
                 },
                 {
@@ -378,40 +182,14 @@
                     "kind": "Containers",
                     "level": null,
                     "experience": null,
-                    "keywords": [
-                        "Images",
-                        "Compose"
-                    ]
+                    "keywords": []
                 },
                 {
-                    "name": "GitLab",
-                    "kind": "Platform",
+                    "name": "Linux",
+                    "kind": "Operating system",
                     "level": null,
                     "experience": null,
-                    "keywords": [
-                        "Merge requests",
-                        "Repositories"
-                    ]
-                },
-                {
-                    "name": "Linux server",
-                    "kind": "Server",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "SSH",
-                        "Deployment"
-                    ]
-                },
-                {
-                    "name": "Nginx",
-                    "kind": "Web server",
-                    "level": null,
-                    "experience": null,
-                    "keywords": [
-                        "Reverse proxy",
-                        "Virtual hosts"
-                    ]
+                    "keywords": []
                 }
             ]
         }

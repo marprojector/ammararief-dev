@@ -1,23 +1,36 @@
-name: Auto Deploy Vue to Hostinger
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main # atau master
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '26.2.0' # Sesuaikan dengan versi Node.js Anda
+          node-version: '22'
+          cache: npm
 
-      - name: Install & Build
+      - name: Install
+        run: npm ci
+
+      - name: Build
         # Which desktop apps to show (see .env.example). Unset repository variables fall back to the defaults.
         env:
           VITE_SHOW_ABOUT: ${{ vars.VITE_SHOW_ABOUT }}
@@ -28,17 +41,20 @@ jobs:
           VITE_SHOW_SPOTIFY: ${{ vars.VITE_SHOW_SPOTIFY }}
           VITE_SHOW_TERMINAL: ${{ vars.VITE_SHOW_TERMINAL }}
           VITE_SHOW_CONTACT: ${{ vars.VITE_SHOW_CONTACT }}
-        run: |
-          npm install
-          npm run build
+        run: npm run build
 
-      - name: Upload hasil build ke Hostinger
-        uses: appleboy/scp-action@master
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          host: ${{ secrets.HOSTINGER_HOST }}
-          username: ${{ secrets.HOSTINGER_USERNAME }}
-          key: ${{ secrets.HOSTINGER_SSH_KEY }}
-          port: ${{ secrets.HOSTINGER_PORT }}
-          source: "dist/*"
-          target: "/home/u601591909/domains/adilasoma.cloud/public_html"
-          strip_components: 1
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

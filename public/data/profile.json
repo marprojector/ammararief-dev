@@ -1,11 +1,12 @@
 {
-    "name": "Yasdil Lasoma",
-    "nickname": "adilasoma",
+    "_readme": "TODO: replace contacts.email with your real address before deploying — it is shown in the About and Contact windows.",
+    "name": "M. Ammar R. Arief",
+    "nickname": "marprojector",
     "job": "Software Engineer",
-    "description": "I see software engineering as more than writing code. It's about understanding problems, designing thoughtful solutions, and building systems that are reliable, useful, and maintainable. ",
+    "description": "Information Technology student building things with code. I work across TypeScript, Rust and Swift — from web platforms and local AI tooling to native desktop apps.",
     "contacts": {
-        "email": "yasdilofficial@gmail.com",
-        "linkedin": "Yasdil Lasoma",
-        "address": "Gorontalo, Indonesia"
+        "email": "ammararief@example.com",
+        "linkedin": "M. Ammar R. Arief",
+        "address": "Makassar, Indonesia"
     }
 }

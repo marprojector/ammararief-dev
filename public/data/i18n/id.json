@@ -1,312 +1,46 @@
 {
     "_readme": "Indonesian translations of profile.json, projects.json and work.json, keyed by id. Anything missing falls back to the English original.",
     "profile": {
-        "description": "Bagi saya, rekayasa perangkat lunak lebih dari sekadar menulis kode. Ini tentang memahami masalah, merancang solusi yang matang, dan membangun sistem yang andal, bermanfaat, dan mudah dipelihara. Saya senang bekerja di berbagai lapisan pengembangan perangkat lunak, menghubungkan ide, teknologi, dan orang untuk mengubah kebutuhan yang kompleks menjadi solusi yang praktis."
+        "description": "Mahasiswa Teknologi Informasi yang membangun berbagai hal dengan kode. Saya bekerja di TypeScript, Rust, dan Swift — dari platform web dan tooling AI lokal hingga aplikasi desktop native."
+    },
+    "work": {
+        "1": {
+            "highlights": "Membangun dan merawat tooling open-source di TypeScript, Rust, dan Swift: routing AI lokal, orkestrasi agent, manajemen rumah kos, dan otomasi akademik."
+        },
+        "2": {
+            "highlights": "Integrasi asisten akademik Edlink, diserahkan sebagai bot Telegram per pelanggan."
+        }
     },
     "projects": {
         "1": {
-            "desc": "Aplikasi untuk mengelola proses administrasi mahasiswa dan dosen dalam pengajuan judul skripsi hingga yudisium.",
-            "impact": {
-                "purpose": "Memindahkan administrasi skripsi di FSB UNG, dari pengajuan judul hingga yudisium, dari kertas ke sistem untuk mahasiswa, dosen, dan staf.",
-                "saving": "lebih sedikit waktu administrasi staf program studi",
-                "changes": [
-                    {
-                        "before": "Usulan judul diserahkan dalam bentuk kertas",
-                        "after": "Judul diajukan online"
-                    },
-                    {
-                        "before": "Mahasiswa mengejar dosen untuk tanda tangan",
-                        "after": "Persetujuan diberikan online"
-                    },
-                    {
-                        "before": "Progres dipantau dengan bertanya ke sana-sini",
-                        "after": "Status terlihat oleh mahasiswa dan staf"
-                    },
-                    {
-                        "before": "Daftar yudisium direkap manual",
-                        "after": "Data siap untuk yudisium"
-                    },
-                    {
-                        "before": "Arsip disimpan di map",
-                        "after": "Arsip digital yang bisa dicari"
-                    }
-                ]
-            }
+            "desc": "Model coding gratis tanpa API key, dirutekan ke semua coding harness melalui satu endpoint lokal."
         },
         "2": {
-            "desc": "Aplikasi untuk mengelola proses pendaftaran, penjadwalan, dan pembelajaran mahasiswa PPG."
+            "desc": "Manajemen rumah kos: kamar, penyewa, tagihan, keuangan, dan notifikasi WhatsApp."
         },
         "3": {
-            "desc": "Aplikasi untuk menghimpun data fakultas bagi keperluan akreditasi dosen dan mahasiswa."
+            "desc": "Orkestrasi agent berbasis terminal: satu CLI plus GUI desktop native, ditulis dalam Rust."
         },
         "4": {
-            "desc": "Aplikasi yang memudahkan pemesanan ambulans secara efektif dan efisien melalui rekaman suara."
+            "desc": "Workspace dokumen yang mengubah berkas panjang menjadi jawaban, ringkasan, dan keluaran terstruktur."
         },
         "5": {
-            "desc": "Aplikasi yang memudahkan desa memublikasikan kegiatannya, dilengkapi fitur GIS untuk menampilkan peta tertentu."
+            "desc": "Pusat informasi lokal untuk Makassar, dibangun sebagai aplikasi web mobile-first yang cepat."
         },
         "6": {
-            "desc": "Aplikasi yang menampilkan data jalur evakuasi dan titik kumpul setiap desa di Kecamatan Bulawa."
+            "desc": "Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan."
         },
         "7": {
-            "desc": "Aplikasi yang memudahkan pemesanan skrining HIV beserta beberapa fitur medis lainnya."
+            "desc": "Pengelola git worktree yang menjaga branch paralel tetap terisolasi dan menyerahkan pekerjaan tanpa konflik."
         },
         "8": {
-            "desc": "Aplikasi yang memudahkan akses informasi tentang UKM Risti UNG."
+            "desc": "Lapisan penyimpanan dan berbagi berkas yang dirancang di sekitar satu model sinkronisasi yang dapat diprediksi."
         },
         "9": {
-            "desc": "Aplikasi yang memudahkan akses informasi tentang UKM Risti UNG."
+            "desc": "Tooling perekaman dan pemutaran layar untuk menangkap demo produk dan laporan bug."
         },
         "10": {
-            "desc": "Aplikasi untuk mendigitalkan administrasi desa dan layanan publik agar lebih efisien dan mudah diakses masyarakat desa.",
-            "impact": {
-                "purpose": "Memindahkan administrasi desa dan layanan publik ke online, sehingga warga mendapat surat dan informasi tanpa bolak-balik ke kantor desa.",
-                "saving": "waktu penerbitan surat desa lebih singkat",
-                "changes": [
-                    {
-                        "before": "Datang ke kantor untuk meminta surat",
-                        "after": "Permohonan diajukan online"
-                    },
-                    {
-                        "before": "Surat diketik dari awal setiap kali",
-                        "after": "Dibuat dari templat standar"
-                    },
-                    {
-                        "before": "Data penduduk disimpan di kertas",
-                        "after": "Data kependudukan digital"
-                    },
-                    {
-                        "before": "Tidak tahu sampai mana permohonan",
-                        "after": "Status permohonan bisa dipantau warga"
-                    },
-                    {
-                        "before": "Pengumuman hanya di papan desa",
-                        "after": "Informasi desa terbit online"
-                    }
-                ]
-            }
-        },
-        "11": {
-            "desc": "Aplikasi yang mendukung perencanaan pembangunan daerah melalui fitur Kertas Kerja dengan integrasi SIPD secara real-time."
-        },
-        "12": {
-            "desc": "Platform terpadu Sistem Informasi Hidrologi, Hidrogeologi, dan Hidrometeorologi (SIH3) untuk pengelolaan data sumber daya air, bekerja sama dengan PUPR, Balai Wilayah Sungai, dan BMKG."
-        },
-        "13": {
-            "desc": "Platform e-commerce khusus Kota Kotamobagu untuk memberdayakan UMKM lokal dan memudahkan transaksi digital produk daerah."
-        },
-        "14": {
-            "desc": "Aplikasi persuratan digital untuk merapikan korespondensi administrasi dan pengelolaan dokumen program Dinul Islam di Universitas Muhammadiyah Gorontalo."
-        },
-        "15": {
-            "desc": "Gerakan Rakyati Hulonthalo Mosikola: sistem penerimaan murid baru (SPMB) tingkat provinsi untuk seluruh SMA dan SMK negeri di Gorontalo, dengan sinkronisasi Dapodik, peta zonasi, dan pengumuman real-time.",
-            "metrics": [
-                {
-                    "label": "siswa ditempatkan"
-                },
-                {
-                    "label": "pendaftaran diproses"
-                },
-                {
-                    "label": "SMA & SMK negeri"
-                }
-            ],
-            "gallery": [
-                "Beranda penerimaan murid baru 2026/2027",
-                "Distribusi pendaftar real-time di 112 sekolah dan 26.312 kursi",
-                "Peta zonasi sekolah",
-                "Daftar sekolah"
-            ],
-            "impact": {
-                "purpose": "Menggantikan pendaftaran kertas di tiap sekolah dengan satu sistem provinsi, sehingga setiap pendaftar cukup mendaftar sekali, sekolah memverifikasi secara online, dan penempatan mengikuti zonasi serta kuota secara terbuka.",
-                "saving": "lebih sedikit pekerjaan administrasi panitia penerimaan di sekolah",
-                "changes": [
-                    {
-                        "before": "Antre di tiap sekolah membawa berkas kertas",
-                        "after": "Satu akun online dengan NIK dan NISN, dari mana saja"
-                    },
-                    {
-                        "before": "Dokumen dicek manual di loket",
-                        "after": "Unggahan diverifikasi online oleh tim sekolah"
-                    },
-                    {
-                        "before": "Jarak ke sekolah diukur manual",
-                        "after": "Peta zonasi dengan pengecekan domisili bawaan"
-                    },
-                    {
-                        "before": "Rekap kuota di spreadsheet tiap sekolah",
-                        "after": "Distribusi real-time di seluruh 112 sekolah"
-                    },
-                    {
-                        "before": "Hasil ditempel di papan pengumuman",
-                        "after": "Hasil real-time dan notifikasi otomatis"
-                    },
-                    {
-                        "before": "Data siswa diketik ulang",
-                        "after": "Tersinkron dari Dapodik"
-                    }
-                ]
-            }
-        },
-        "16": {
-            "desc": "Platform tanda tangan elektronik Pemerintah Provinsi Gorontalo: alur persetujuan berjenjang, tanda tangan massal, unggah PDF bertahap, dan API publik agar aplikasi pemerintah lain dapat menandatangani melalui SSO, dengan tanda tangan berbasis sertifikat elektronik BSrE (BSSN).",
-            "status": "Uji penerimaan pengguna (UAT)",
-            "metrics": [
-                {
-                    "value": "Semua OPD",
-                    "label": "& ASN, target penerapan"
-                },
-                {
-                    "value": "Massal",
-                    "label": "tanda tangan asinkron via API"
-                },
-                {
-                    "label": "unit organisasi terhubung"
-                }
-            ],
-            "gallery": [
-                "Beranda dengan masuk SSO",
-                "Statistik layanan real-time",
-                "Tur fitur, dari pengajuan hingga API publik",
-                "Verifikasi publik dokumen PDF bertanda tangan"
-            ],
-            "impact": {
-                "purpose": "Memungkinkan perangkat daerah menyusun, menyetujui, dan menandatangani dokumen dinas tanpa mencetak dan membawanya dari meja ke meja.",
-                "saving": "waktu proses per dokumen dinas lebih singkat",
-                "changes": [
-                    {
-                        "before": "Draf cetak dibawa antarkantor untuk diparaf",
-                        "after": "Persetujuan berjenjang dialirkan online"
-                    },
-                    {
-                        "before": "Nomor surat diambil dari buku agenda manual",
-                        "after": "Penomoran dokumen otomatis"
-                    },
-                    {
-                        "before": "Menandatangani tumpukan surat satu per satu",
-                        "after": "Tanda tangan massal dalam satu langkah"
-                    },
-                    {
-                        "before": "Menelepon penerbit untuk memastikan dokumen",
-                        "after": "Verifikasi PDF publik dengan sertifikat BSrE"
-                    },
-                    {
-                        "before": "Setiap aplikasi mengurus tanda tangannya sendiri",
-                        "after": "Satu API tanda tangan di balik SSO"
-                    },
-                    {
-                        "before": "Biaya kertas, cetak, dan kurir",
-                        "after": "Dokumen tetap digital dari awal hingga akhir"
-                    }
-                ]
-            }
-        },
-        "17": {
-            "desc": "Web builder multi-tenant yang menjalankan situs publik setiap OPD dari satu platform: satu hostname per unit, section builder yang bisa diberi tema, isolasi data ketat per aplikasi, dan halaman yang dirender di server untuk SEO.",
-            "metrics": [
-                {
-                    "label": "situs OPD"
-                },
-                {
-                    "value": "1.000/hari",
-                    "label": "pengunjung"
-                },
-                {
-                    "label": "aplikasi & portal di katalog"
-                }
-            ],
-            "gallery": [
-                "Portal utama Webuild",
-                "Katalog 46 aplikasi dan portal OPD",
-                "Dibangun dengan Webuild: Dinas Kominfotik",
-                "Dibangun dengan Webuild: Museum Purbakala, dengan reservasi kunjungan online"
-            ],
-            "impact": {
-                "purpose": "Menjalankan situs publik setiap OPD dari satu platform, alih-alih tiap kantor membangun, meng-hosting, dan memelihara situsnya sendiri.",
-                "saving": "lebih sedikit usaha untuk meluncurkan dan memelihara situs OPD",
-                "changes": [
-                    {
-                        "before": "Tiap kantor memesan situsnya sendiri",
-                        "after": "Situs baru cukup tenant baru dengan tema"
-                    },
-                    {
-                        "before": "Puluhan server dan versi CMS terpisah",
-                        "after": "Satu codebase; satu pembaruan untuk semua situs"
-                    },
-                    {
-                        "before": "Tata letak dan kualitas berbeda tiap kantor",
-                        "after": "Section standar, fitur aksesibilitas, dan identitas provinsi"
-                    },
-                    {
-                        "before": "Patch keamanan dipasang situs per situs",
-                        "after": "Dipatch sekali, dengan data terisolasi per aplikasi"
-                    },
-                    {
-                        "before": "Perubahan konten menunggu developer",
-                        "after": "Staf mengedit halaman lewat section builder"
-                    },
-                    {
-                        "before": "Layanan tersebar dan sulit ditemukan",
-                        "after": "Satu katalog dan pencarian untuk semua portal OPD"
-                    }
-                ]
-            }
-        },
-        "18": {
-            "desc": "Minimarket online untuk belanja retail dan grosir di tiga cabang DK Mart di Gorontalo: stok tersinkron real-time dengan setiap toko, pengiriman dari cabang terdekat, pembayaran QRIS, virtual account, dan e-wallet, serta akun bisnis dengan invoice tempo Net-30.",
-            "metrics": [
-                {
-                    "label": "cabang berjualan online"
-                },
-                {
-                    "label": "stok tersinkron dengan setiap toko"
-                },
-                {
-                    "value": "18.000+",
-                    "label": "produk di katalog"
-                }
-            ],
-            "gallery": [
-                "Etalase DK Mart Cabang Telaga",
-                "Produk terlaris dengan harga per satuan",
-                "Halaman produk dengan satuan retail dan grosir",
-                "Katalog grosir: 7.210 produk satuan besar"
-            ],
-            "impact": {
-                "purpose": "Memungkinkan rumah tangga dan pemilik warung berbelanja dari cabang DK Mart secara online, dengan harga grosir untuk pelaku usaha.",
-                "saving": "lebih sedikit waktu staf untuk mencatat pesanan dan mengecek stok",
-                "changes": [
-                    {
-                        "before": "Pesanan lewat telepon dan WhatsApp",
-                        "after": "Katalog mandiri berisi 18.000+ produk"
-                    },
-                    {
-                        "before": "Bertanya ke staf apakah barang tersedia",
-                        "after": "Stok real-time untuk setiap cabang"
-                    },
-                    {
-                        "before": "Harga grosir dihitung manual",
-                        "after": "Satuan dan harga grosir di setiap produk"
-                    },
-                    {
-                        "before": "Hanya bayar di tempat",
-                        "after": "Pembayaran QRIS, virtual account, dan e-wallet"
-                    },
-                    {
-                        "before": "Nota tulis tangan untuk pembeli bisnis",
-                        "after": "Invoice otomatis dengan tempo Net-30"
-                    },
-                    {
-                        "before": "Menelepon toko untuk menanyakan pesanan",
-                        "after": "Lacak pesanan dari diproses hingga diantar"
-                    }
-                ]
-            }
-        }
-    },
-    "work": {
-        "7": {
-            "highlights": "Membangun GRHM (penerimaan sekolah tingkat provinsi, 20.000+ pendaftaran), Webuild (50 situs OPD), dan ESIGN, platform tanda tangan elektronik provinsi."
+            "desc": "Front end pemesanan dan pengiriman untuk usaha kuliner di Makassar."
         }
     }
 }

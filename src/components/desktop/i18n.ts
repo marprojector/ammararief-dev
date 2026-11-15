@@ -161,12 +161,12 @@ const ID: Record<string, string> = {
   'Open this page': 'Buka halaman ini',
   '{i} of {n}': '{i} dari {n}',
   // featured slider taglines
-  'Electronic signatures for every office in the provincial government.': 'Tanda tangan elektronik untuk setiap kantor di pemerintah provinsi.',
-  'One admission system for every public SMA and SMK in Gorontalo.': 'Satu sistem penerimaan untuk setiap SMA dan SMK negeri di Gorontalo.',
-  'Fifty OPD websites running from one multi-tenant platform.': 'Lima puluh situs OPD berjalan dari satu platform multi-tenant.',
-  'Village administration and public services, digitized.': 'Administrasi desa dan layanan publik, kini digital.',
-  'Thesis-title submissions, from student to judiciary.': 'Pengajuan judul skripsi, dari mahasiswa hingga yudisium.',
-  'An online minimarket for retail and wholesale across three Gorontalo branches.': 'Minimarket online untuk retail dan grosir di tiga cabang Gorontalo.',
+  'Free, keyless coding models routed to every coding harness through one local endpoint.': 'Model coding gratis tanpa API key, dirutekan ke semua coding harness melalui satu endpoint lokal.',
+  'Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.': 'Orkestrasi agent berbasis terminal: satu CLI plus GUI desktop native, ditulis dalam Rust.',
+  'Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.': 'Manajemen rumah kos: kamar, penyewa, tagihan, keuangan, dan notifikasi WhatsApp.',
+  'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.': 'Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan.',
+  'Document workspace that turns long files into answers, summaries and structured output.': 'Workspace dokumen yang mengubah berkas panjang menjadi jawaban, ringkasan, dan keluaran terstruktur.',
+  'Local information hub for Makassar, built as a fast, mobile-first web app.': 'Pusat informasi lokal untuk Makassar, dibangun sebagai aplikasi web mobile-first yang cepat.',
 
   // Experience
   "Where I've worked": 'Tempat saya bekerja',
@@ -202,8 +202,8 @@ const ID: Record<string, string> = {
   From: 'Dari',
   you: 'Anda',
   Subject: 'Subjek',
-  "I build and run web platforms for government, campuses and local businesses in Gorontalo. If you have a system to build, a backend to scale or a team that needs another engineer, email me and I'll reply within a couple of days.":
-    'Saya membangun dan menjalankan platform web untuk pemerintah, kampus, dan usaha lokal di Gorontalo. Jika Anda punya sistem yang ingin dibangun, backend yang perlu ditingkatkan, atau tim yang butuh engineer tambahan, kirimi saya email dan saya akan membalas dalam beberapa hari.',
+  "I build software across web, desktop and local AI tooling. If you have a system to build, a tool that needs automating or a team that needs another engineer, email me and I'll reply within a couple of days.":
+    'Saya membangun perangkat lunak di web, desktop, dan tooling AI lokal. Jika Anda punya sistem yang ingin dibangun, tool yang perlu diotomasi, atau tim yang butuh engineer tambahan, kirimi saya email dan saya akan membalas dalam beberapa hari.',
   'Write email': 'Tulis email',
 
   // Spotify

@@ -21,7 +21,7 @@ import { duration, locale, t, tn } from '../i18n'
 
 // The terminal is the one place where everything on the desktop can be read and searched.
 
-const PROMPT = 'adi@gorontalo ~ %'
+const PROMPT = 'mar@makassar ~ %'
 const pad = (s: string, n: number) => s + ' '.repeat(Math.max(1, n - s.length))
 const D = ({ children }: { children: ReactNode }) => <span className="d">{children}</span>
 const A = ({ children }: { children: ReactNode }) => <span className="a">{children}</span>

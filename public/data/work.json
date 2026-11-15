@@ -1,75 +1,36 @@
 [
     {
         "id": 1,
-        "name": "Arsy Dev Creative",
+        "name": "Independent Projects",
         "role": [
-            "Frontend Developer"
+            "Software Engineer"
         ],
-        "startDate": "August 2022",
-        "endDate": "January 2026",
+        "startDate": "January 2024",
+        "endDate": null,
+        "highlights": "Building and maintaining open-source tooling across TypeScript, Rust and Swift: local AI routing, agent orchestration, boarding-house management and academic automation.",
         "projects": [
             1,
             2,
-            3
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10
         ]
     },
     {
         "id": 2,
-        "name": "BPSDM Kominfo",
-        "role": [
-            "Backend Developer Intern"
-        ],
-        "startDate": "September 2024",
-        "endDate": "December 2024",
-        "projects": [
-            9
-        ]
-    },
-    {
-        "id": 3,
-        "name": "Timedoor Academy Gorontalo",
-        "role": [
-            "Coding Mentor"
-        ],
-        "startDate": "September 2024",
-        "endDate": "Januari 2026"
-    },
-    {
-        "id": 4,
-        "name": "Bangkit Digital Gorontalo",
-        "role": [
-            "Backend Developer",
-            "Project Manager"
-        ],
-        "startDate": "January 2025",
-        "endDate": "July 2025"
-    },
-    {
-        "id": 5,
-        "name": "Bappeda Provinsi Gorontalo",
-        "role": [
-            "Programmer"
-        ],
-        "startDate": "September 2025",
-        "endDate": "Desember 2025"
-    },
-    {
-        "id": 6,
-        "name": "Universitas Muhammadiyah Gorontalo",
-        "role": [
-            "Programmer"
-        ],
-        "startDate": "January 2026",
-        "endDate": "June 2026"
-    },
-    {
-        "id": 7,
-        "name": "Kominfo Provinsi Gorontalo",
+        "name": "Universitas Bosowa",
         "role": [
             "Software Engineer"
         ],
-        "startDate": "Februari 2026",
+        "startDate": "January 2025",
         "endDate": null,
-        "highlights": "Building GRHM (province-wide school admissions, 20,000+ registrations), Webuild (50 OPD websites) and ESIGN, the province's electronic signature platform."
+        "highlights": "Academic assistant integration for Edlink, delivered as a per-customer Telegram bot.",
+        "projects": [
+            6
+        ]
     }
 ]
