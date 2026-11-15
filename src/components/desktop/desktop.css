@@ -107,7 +107,7 @@
 .menubar { position: relative; z-index: 900; display: flex; align-items: center; gap: 4px; height: 28px; padding-left: max(10px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); background: var(--bar); color: var(--bar-ink); backdrop-filter: blur(24px) saturate(1.6); -webkit-backdrop-filter: blur(24px) saturate(1.6); font-size: 13px; }
 .mb-btn { height: 22px; padding: 0 9px; border-radius: 5px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .mb-btn:hover, .mb-btn[aria-expanded="true"] { background: var(--fill-2); }
-.mb-logo svg { width: 16px; height: 16px; }
+.mb-logo svg, .mb-logo img { width: 16px; height: 16px; display: block; }
 .mb-app { font-weight: 650; }
 .mb-nav { display: flex; gap: 0; }
 .mb-right { margin-left: auto; display: flex; align-items: center; gap: 2px; }

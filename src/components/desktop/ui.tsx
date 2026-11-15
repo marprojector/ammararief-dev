@@ -57,7 +57,9 @@ export const UI = {
       <path d="m10.6 10.6 3.4 3.4" {...stroke} strokeWidth="1.6" />
     </>,
   ),
-  logo: s(<path fill="currentColor" d="M8 1.2 14.4 5v6L8 14.8 1.6 11V5L8 1.2Zm0 2.1L3.4 6v4.1L8 12.7l4.6-2.6V6L8 3.3Zm0 2.2 2.6 1.5v3L8 11.5 5.4 10V7L8 5.5Z" />),
+  logo: (
+    <img src="/icons/mar-logo.png" alt="" width={16} height={16} draggable={false} />
+  ),
   theme: s(<path fill="currentColor" d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13Zm0 1.4v10.2a5.1 5.1 0 0 1 0-10.2Z" />),
   wifi: s(
     <path
