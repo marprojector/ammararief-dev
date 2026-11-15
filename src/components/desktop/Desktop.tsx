@@ -470,7 +470,7 @@ function NowPlaying({ onOpen }: { onOpen: () => void }) {
   )
 }
 
-// Wallpaper image: public/assets/background/background.webp
+// Wallpaper image: public/assets/background/background.jpg
 function Wallpaper() {
   return <div className="wall" aria-hidden="true" />
 }
