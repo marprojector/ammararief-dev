@@ -145,7 +145,7 @@ function projectsOut({ projects }: DesktopData, year?: string) {
 }
 
 function projectOut({ projects }: DesktopData, q: string) {
-  if (!q) return t('project: which one? e.g. project grhm. List them with: projects') + '\n'
+  if (!q) return t('project: which one? e.g. project herdr. List them with: projects') + '\n'
   const p = findProject(projects, q)
   if (!p) return t('project: nothing matches "{q}". List them with: projects', { q }) + '\n'
   const [sv, ss] = statusOf(p)
@@ -285,7 +285,7 @@ async function articleOut(q: string): Promise<ReactNode> {
 
 async function searchOut(data: DesktopData, raw: string): Promise<ReactNode> {
   const terms = raw.toLowerCase().split(/\s+/).filter(Boolean)
-  if (!terms.length) return t('search: what for? e.g. search laravel, search 2025, search kominfo') + '\n'
+  if (!terms.length) return t('search: what for? e.g. search rust, search 2025, search bosowa') + '\n'
   const hit = (s: string) => terms.every((t) => s.toLowerCase().includes(t))
   const projects = data.projects.filter((p) =>
     hit([p.name, p.company, p.desc, p.year, ...(p.stack ?? []), ...p.role, p.impact?.purpose ?? '', ...(p.impact?.changes.flatMap((c) => [c.before, c.after]) ?? [])].join(' ')),
@@ -540,7 +540,7 @@ export default function Terminal() {
         cmd: null,
         out: (
           <D>
-            {t('Everything on this desktop is searchable here. Try')} <A>search laravel</A>, <A>stack backend</A>, <A>project grhm</A> {t('or')} <A>help</A>.{'\n'}
+            {t('Everything on this desktop is searchable here. Try')} <A>search rust</A>, <A>stack backend</A>, <A>project herdr</A> {t('or')} <A>help</A>.{'\n'}
           </D>
         ),
       },

@@ -306,7 +306,7 @@ export default function Desktop({ data: source, overlay }: { data: DesktopData; 
                 {UI.theme}
               </button>
               <span className="mb-btn mb-hide" aria-hidden="true">{UI.wifi}</span>
-              <span className="mb-btn mb-clock" title={t('Local time in Gorontalo')}>
+              <span className="mb-btn mb-clock" title={t('Local time in Makassar')}>
                 {clock} <span className="mb-tz">WITA</span>
               </span>
             </div>

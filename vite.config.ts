@@ -10,10 +10,11 @@ export default defineConfig({
     tailwindcss()
   ],
   assetsInclude: ['**/*.glb'],
-  // /api/*.php runs on the Hostinger host; in dev, forward to it (override with API_PROXY=http://localhost:8000).
+  // /api/*.php is the Spotify proxy. GitHub Pages cannot run PHP, so the Spotify app stays off
+  // (VITE_SHOW_SPOTIFY=false by default). Serve public/api with any PHP host and point API_PROXY at it.
   server: {
     proxy: {
-      '/api': { target: process.env.API_PROXY ?? 'https://adilasoma.cloud', changeOrigin: true },
+      '/api': { target: process.env.API_PROXY ?? 'http://localhost:8000', changeOrigin: true },
     },
   },
   resolve: {

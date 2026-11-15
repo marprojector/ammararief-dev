@@ -44,7 +44,7 @@ export const APPS: Record<AppId, { title: string; dock: string; w: number; h: nu
   stack: { title: 'Tech Stack', dock: 'Tech Stack', w: 940, h: 620, cls: 'win-stack' },
   notes: { title: 'Notes', dock: 'Notes', w: 1000, h: 640, cls: 'win-notes' },
   spotify: { title: 'Spotify', dock: 'Spotify', w: 720, h: 600, cls: 'win-spotify' },
-  terminal: { title: 'adi — zsh', dock: 'Terminal', w: 680, h: 460, cls: 'term' },
+  terminal: { title: 'mar — zsh', dock: 'Terminal', w: 680, h: 460, cls: 'term' },
   contact: { title: 'New Message', dock: 'Contact', w: 560, h: 470 },
 }
 export const ORDER: AppId[] = ['about', 'projects', 'experience', 'stack', 'notes', 'spotify', 'terminal', 'contact']

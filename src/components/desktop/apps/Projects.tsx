@@ -438,7 +438,7 @@ export default function Projects() {
             {list.map((p) => <Row key={p.id} p={p} go={go} />)}
           </div>
         ) : (
-          <p className="empty">{t('No project matches “{q}”. Try a year, a client such as Kominfo, or a stack such as Laravel.', { q: view.q })}</p>
+          <p className="empty">{t('No project matches “{q}”. Try a year, a client such as Bosowa, or a stack such as Rust.', { q: view.q })}</p>
         )}
       </div>
     )

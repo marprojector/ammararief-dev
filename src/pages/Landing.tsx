@@ -18,8 +18,8 @@ const Landing = () => {
   return (
     <>
       <Helmet>
-        <title>Yasdil Lasoma - Portfolio</title>
-        <meta name="description" content="Software Engineer who designs, builds and ships reliable web platforms with Laravel, NestJS, React and Vue." />
+        <title>M. Ammar R. Arief - Portfolio</title>
+        <meta name="description" content="Software Engineer building web platforms, native desktop apps and local AI tooling with TypeScript, Rust and Swift." />
       </Helmet>
       {ready ? (
         <Desktop data={{ profile, socials, projects, work, stack }} overlay={idOverlay} />
