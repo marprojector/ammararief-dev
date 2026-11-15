@@ -60,7 +60,7 @@ const DetailBlog = () => {
   return (
     <div className='py-24 px-6 md:px-32 max-w-4xl mx-auto'>
       <Helmet>
-        <title>{post.title} | Adi's Journal</title>
+        <title>{post.title} | Ammar's Journal</title>
         <meta name="description" content={post.description ? stripHtml(post.description).substring(0, 160) : "Blog detail"} />
       </Helmet>
       <Link to={"/blog"} className="text-sm uppercase tracking-widest text-gray-400 hover:text-black transition-colors mb-12 inline-block">

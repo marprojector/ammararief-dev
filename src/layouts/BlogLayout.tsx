@@ -6,7 +6,7 @@ const BlogLayout = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>Adi's Journal</title>
+        <title>Ammar's Journal</title>
         <meta name="description" content="Engineering, design, and stories by Adi." />
       </Helmet>
       <main className="container mx-auto py-8">
