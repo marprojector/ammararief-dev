@@ -7,17 +7,15 @@
         ],
         "startDate": "January 2024",
         "endDate": null,
-        "highlights": "Building and maintaining open-source tooling across TypeScript, Rust and Swift: local AI routing, agent orchestration, boarding-house management and academic automation.",
+        "highlights": "Building and maintaining products in TypeScript and React: boarding-house management, document AI, local information and link-in-bio tools.",
         "projects": [
             1,
             2,
             3,
-            4,
             5,
+            6,
             7,
-            8,
-            9,
-            10
+            8
         ]
     },
     {
@@ -30,7 +28,7 @@
         "endDate": null,
         "highlights": "Academic assistant integration for Edlink, delivered as a per-customer Telegram bot.",
         "projects": [
-            6
+            4
         ]
     }
 ]

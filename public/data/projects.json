@@ -1,22 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Bansos Router",
-    "company": "Personal",
-    "year": "2025",
-    "role": [
-      "Software Engineer"
-    ],
-    "desc": "Free, keyless coding models routed to every coding harness through one local endpoint.",
-    "link": "https://github.com/marprojector/bansos-router",
-    "stack": [
-      "TypeScript",
-      "Node.js",
-      "Hono"
-    ]
-  },
-  {
-    "id": 2,
     "name": "KostKu",
     "company": "Personal",
     "year": "2025",
@@ -24,30 +8,16 @@
       "Software Engineer"
     ],
     "desc": "Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.",
-    "link": "https://github.com/marprojector/kostku-template",
+    "link": "https://github.com/marprojector/KostKu",
     "stack": [
       "TypeScript",
       "React",
       "Tailwind CSS"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Herdr",
-    "company": "Personal",
-    "year": "2025",
-    "role": [
-      "Systems Engineer"
     ],
-    "desc": "Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.",
-    "link": "https://github.com/marprojector/herdr-cli",
-    "stack": [
-      "Rust",
-      "TypeScript"
-    ]
+    "logo": "kostku.png"
   },
   {
-    "id": 4,
+    "id": 2,
     "name": "MarDocs AI",
     "company": "Personal",
     "year": "2025",
@@ -55,29 +25,30 @@
       "Software Engineer"
     ],
     "desc": "Document workspace that turns long files into answers, summaries and structured output.",
-    "link": "https://github.com/marprojector/MarDocs-AI",
+    "link": "https://mardocs.ammararief.my.id",
     "stack": [
       "TypeScript",
       "React"
     ]
   },
   {
-    "id": 5,
-    "name": "MARkassar Info",
+    "id": 3,
+    "name": "Delisert",
     "company": "Personal",
     "year": "2025",
     "role": [
       "Software Engineer"
     ],
-    "desc": "Local information hub for Makassar, built as a fast, mobile-first web app.",
-    "link": "https://github.com/marprojector/MARkassar-Info",
+    "desc": "Food ordering and delivery platform for businesses in Makassar.",
+    "link": "https://delisert.me",
     "stack": [
       "TypeScript",
       "React"
-    ]
+    ],
+    "logo": "delisert.png"
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Edlink Agent",
     "company": "Universitas Bosowa",
     "year": "2025",
@@ -89,63 +60,67 @@
     "stack": [
       "TypeScript",
       "Telegram Bot API"
-    ]
+    ],
+    "logo": "edlink.png"
   },
   {
-    "id": 7,
-    "name": "Orca",
+    "id": 5,
+    "name": "MaRkassar Info",
     "company": "Personal",
     "year": "2025",
     "role": [
       "Software Engineer"
     ],
-    "desc": "Git worktree manager that keeps parallel branches isolated and hands work off without conflicts.",
-    "link": "https://github.com/marprojector/orca",
+    "desc": "Local information hub for Makassar, built as a fast, mobile-first web app.",
+    "link": "https://markassar-info.vercel.app",
+    "stack": [
+      "TypeScript",
+      "React"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "MarLynk",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "Link-in-bio page that collects every profile and project in one shareable address.",
+    "link": "https://marlynk.ammararief.my.id",
+    "stack": [
+      "TypeScript",
+      "React"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MARPROJECTOR",
+    "company": "Personal",
+    "year": "2025",
+    "role": [
+      "Software Engineer"
+    ],
+    "desc": "The GitHub profile itself: repository index, pinned work and an overview of what I build.",
+    "link": "https://github.com/marprojector",
     "stack": [
       "TypeScript"
     ]
   },
   {
     "id": 8,
-    "name": "9drive",
+    "name": "Portfolio",
     "company": "Personal",
     "year": "2025",
     "role": [
       "Software Engineer"
     ],
-    "desc": "File storage and sharing layer designed around a single, predictable sync model.",
-    "link": "https://github.com/marprojector/9drive",
-    "stack": [
-      "TypeScript"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Recordly",
-    "company": "Personal",
-    "year": "2025",
-    "role": [
-      "Software Engineer"
-    ],
-    "desc": "Screen recording and playback tooling for capturing product demos and bug reports.",
-    "link": "https://github.com/marprojector/Recordly",
-    "stack": [
-      "TypeScript"
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Delisert",
-    "company": "Personal",
-    "year": "2025",
-    "role": [
-      "Software Engineer"
-    ],
-    "desc": "Ordering and delivery front end for food businesses in Makassar.",
-    "link": "https://github.com/marprojector/Delisert.mks",
+    "desc": "My main portfolio site — the projects, writing and background in one place.",
+    "link": "https://ammararief.my.id",
     "stack": [
       "TypeScript",
       "React"
-    ]
+    ],
+    "logo": "marfolio.webp"
   }
 ]

@@ -67,12 +67,12 @@ export const VISIBLE: AppId[] = ORDER.filter((id) => ENABLED[id])
 
 // Selected projects for the Discover slider, in display order. Ids refer to public/data/projects.json.
 export const FEATURED: { id: number; tag: string }[] = [
-  { id: 1, tag: 'Free, keyless coding models routed to every coding harness through one local endpoint.' },
-  { id: 3, tag: 'Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.' },
-  { id: 2, tag: 'Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.' },
-  { id: 6, tag: 'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.' },
-  { id: 4, tag: 'Document workspace that turns long files into answers, summaries and structured output.' },
-  { id: 5, tag: 'Local information hub for Makassar, built as a fast, mobile-first web app.' },
+  { id: 8, tag: 'My main portfolio site — the projects, writing and background in one place.' },
+  { id: 1, tag: 'Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.' },
+  { id: 2, tag: 'Document workspace that turns long files into answers, summaries and structured output.' },
+  { id: 3, tag: 'Food ordering and delivery platform for businesses in Makassar.' },
+  { id: 6, tag: 'Link-in-bio page that collects every profile and project in one shareable address.' },
+  { id: 4, tag: 'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.' },
 ]
 
 export const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']

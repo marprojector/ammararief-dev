@@ -5,7 +5,7 @@
     },
     "work": {
         "1": {
-            "highlights": "Membangun dan merawat tooling open-source di TypeScript, Rust, dan Swift: routing AI lokal, orkestrasi agent, manajemen rumah kos, dan otomasi akademik."
+            "highlights": "Membangun dan merawat produk dalam TypeScript dan React: manajemen rumah kos, AI dokumen, informasi lokal, dan tool link-in-bio."
         },
         "2": {
             "highlights": "Integrasi asisten akademik Edlink, diserahkan sebagai bot Telegram per pelanggan."
@@ -13,34 +13,28 @@
     },
     "projects": {
         "1": {
-            "desc": "Model coding gratis tanpa API key, dirutekan ke semua coding harness melalui satu endpoint lokal."
-        },
-        "2": {
             "desc": "Manajemen rumah kos: kamar, penyewa, tagihan, keuangan, dan notifikasi WhatsApp."
         },
+        "2": {
+            "desc": "Workspace dokumen yang mengubah berkas panjang menjadi jawaban, ringkasan, dan keluaran terstruktur."
+        },
         "3": {
-            "desc": "Orkestrasi agent berbasis terminal: satu CLI plus GUI desktop native, ditulis dalam Rust."
+            "desc": "Platform pemesanan dan pengiriman makanan untuk usaha di Makassar."
         },
         "4": {
-            "desc": "Workspace dokumen yang mengubah berkas panjang menjadi jawaban, ringkasan, dan keluaran terstruktur."
+            "desc": "Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan."
         },
         "5": {
             "desc": "Pusat informasi lokal untuk Makassar, dibangun sebagai aplikasi web mobile-first yang cepat."
         },
         "6": {
-            "desc": "Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan."
+            "desc": "Halaman link-in-bio yang mengumpulkan semua profil dan proyek dalam satu alamat."
         },
         "7": {
-            "desc": "Pengelola git worktree yang menjaga branch paralel tetap terisolasi dan menyerahkan pekerjaan tanpa konflik."
+            "desc": "Profil GitHub-nya sendiri: indeks repositori, karya yang dipin, dan ringkasan apa yang saya bangun."
         },
         "8": {
-            "desc": "Lapisan penyimpanan dan berbagi berkas yang dirancang di sekitar satu model sinkronisasi yang dapat diprediksi."
-        },
-        "9": {
-            "desc": "Tooling perekaman dan pemutaran layar untuk menangkap demo produk dan laporan bug."
-        },
-        "10": {
-            "desc": "Front end pemesanan dan pengiriman untuk usaha kuliner di Makassar."
+            "desc": "Situs portofolio utama saya — proyek, tulisan, dan latar belakang dalam satu tempat."
         }
     }
 }

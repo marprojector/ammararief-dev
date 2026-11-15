@@ -161,12 +161,12 @@ const ID: Record<string, string> = {
   'Open this page': 'Buka halaman ini',
   '{i} of {n}': '{i} dari {n}',
   // featured slider taglines
-  'Free, keyless coding models routed to every coding harness through one local endpoint.': 'Model coding gratis tanpa API key, dirutekan ke semua coding harness melalui satu endpoint lokal.',
-  'Terminal-native agent orchestration: one CLI plus a native desktop GUI, written in Rust.': 'Orkestrasi agent berbasis terminal: satu CLI plus GUI desktop native, ditulis dalam Rust.',
+  'My main portfolio site — the projects, writing and background in one place.': 'Situs portofolio utama saya — proyek, tulisan, dan latar belakang dalam satu tempat.',
   'Boarding-house management: rooms, tenants, bills, finances and WhatsApp notifications.': 'Manajemen rumah kos: kamar, penyewa, tagihan, keuangan, dan notifikasi WhatsApp.',
-  'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.': 'Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan.',
   'Document workspace that turns long files into answers, summaries and structured output.': 'Workspace dokumen yang mengubah berkas panjang menjadi jawaban, ringkasan, dan keluaran terstruktur.',
-  'Local information hub for Makassar, built as a fast, mobile-first web app.': 'Pusat informasi lokal untuk Makassar, dibangun sebagai aplikasi web mobile-first yang cepat.',
+  'Food ordering and delivery platform for businesses in Makassar.': 'Platform pemesanan dan pengiriman makanan untuk usaha di Makassar.',
+  'Link-in-bio page that collects every profile and project in one shareable address.': 'Halaman link-in-bio yang mengumpulkan semua profil dan proyek dalam satu alamat.',
+  'Academic assistant that reaches Edlink data through a Telegram bot, one tenant per customer.': 'Asisten akademik yang menjangkau data Edlink melalui bot Telegram, satu tenant per pelanggan.',
 
   // Experience
   "Where I've worked": 'Tempat saya bekerja',
