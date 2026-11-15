@@ -1,11 +1,10 @@
 {
-    "_readme": "TODO: replace contacts.email with your real address before deploying — it is shown in the About and Contact windows.",
     "name": "M. Ammar R. Arief",
     "nickname": "marprojector",
     "job": "Software Engineer",
     "description": "Information Technology student building things with code. I work across TypeScript, Rust and Swift — from web platforms and local AI tooling to native desktop apps.",
     "contacts": {
-        "email": "ammararief@example.com",
+        "email": "marmdhn28@gmail.com",
         "linkedin": "M. Ammar R. Arief",
         "address": "Makassar, Indonesia"
     }
