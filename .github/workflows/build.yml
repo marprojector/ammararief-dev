@@ -1,4 +1,7 @@
-name: Deploy to GitHub Pages
+# Builds the site on every push so a Cloudflare Pages deploy (or anything else) can pick up dist/.
+# Cloudflare Pages can also build this repo itself — then this workflow is optional and only here
+# to catch build errors early. It publishes dist/ as an artifact, nothing else.
+name: Build
 
 on:
   push:
@@ -7,12 +10,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -50,18 +47,9 @@ jobs:
           VITE_FIREBASE_MEASUREMENT_ID: ${{ vars.VITE_FIREBASE_MEASUREMENT_ID }}
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Upload dist
+        uses: actions/upload-artifact@v4
         with:
+          name: dist
           path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4
+          retention-days: 7

@@ -1,0 +1,3 @@
+# SPA fallback for Cloudflare Pages: every route is served by index.html.
+# https://developers.cloudflare.com/pages/configuration/redirects/
+/*  /index.html  200
