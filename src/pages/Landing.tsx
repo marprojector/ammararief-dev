@@ -24,8 +24,8 @@ const Landing = () => {
       {ready ? (
         <Desktop data={{ profile, socials, projects, work, stack }} overlay={idOverlay} />
       ) : (
-        // Same ground colour as the wallpaper, so loading doesn't flash white.
-        <div aria-busy="true" style={{ position: 'fixed', inset: 0, background: '#0b1640' }} />
+        // The wallpaper is already painted by html/body in index.html, so nothing to show here.
+        <div aria-busy="true" />
       )}
       <Welcome ready={!!ready} />
     </>

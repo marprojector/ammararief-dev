@@ -101,7 +101,7 @@
 
 /* ---------- wallpaper ---------- */
 .os { position: relative; height: 100%; display: grid; grid-template-rows: 28px 1fr; isolation: isolate; }
-.wall { position: absolute; inset: 0; z-index: -1; background: #0b1640 url("/assets/background/background.jpg") center 70% / cover no-repeat; }
+.wall { position: absolute; inset: 0; z-index: -1; background: #0d1b2a url("/assets/background/background.jpg") center 70% / cover no-repeat; }
 
 /* ---------- menu bar ---------- */
 .menubar { position: relative; z-index: 900; display: flex; align-items: center; gap: 4px; height: 28px; padding-left: max(10px, env(safe-area-inset-left, 0px)); padding-right: max(12px, env(safe-area-inset-right, 0px)); background: var(--bar); color: var(--bar-ink); backdrop-filter: blur(24px) saturate(1.6); -webkit-backdrop-filter: blur(24px) saturate(1.6); font-size: 13px; }
@@ -732,7 +732,7 @@
 [data-drag]:not([data-drag="self"]) { -webkit-user-select: none; user-select: none; }
 
 /* ---------- welcome ("hello" on every page load) ---------- */
-.welcome { position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center; overflow: hidden; background: #0b1640 url("/assets/background/background.jpg") center 70% / cover no-repeat; cursor: default; transition: opacity .7s cubic-bezier(.4,0,.2,1); }
+.welcome { position: fixed; inset: 0; z-index: 5000; display: grid; place-items: center; overflow: hidden; background: #0d1b2a url("/assets/background/background.jpg") center 70% / cover no-repeat; cursor: default; transition: opacity .7s cubic-bezier(.4,0,.2,1); }
 .welcome::before { content: ""; position: absolute; inset: -60px; background: inherit; filter: blur(24px) saturate(1.15) brightness(.82); }
 .welcome svg { position: relative; width: min(66vw, 600px); overflow: visible; filter: drop-shadow(0 8px 28px rgba(0, 0, 0, .28)); transition: transform .7s cubic-bezier(.4,0,.2,1); }
 .welcome path { fill: none; stroke: #fff; stroke-width: 16; stroke-linecap: round; stroke-linejoin: round; }

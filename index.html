@@ -31,6 +31,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Load the wallpaper before the bundle so the first paint is already the desktop, not a dark void. -->
+  <link rel="preload" as="image" href="/assets/background/background.jpg" fetchpriority="high">
+  <style>
+    /* Inline so this applies on the first paint, before the bundled CSS arrives. */
+    html, body { margin: 0; height: 100%; background: #0d1b2a url("/assets/background/background.jpg") center 70% / cover no-repeat; }
+    #root { height: 100%; }
+  </style>
 </head>
 
 <body>
