@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./.github/assets/logo.png" alt="Portfolio logo" width="96" height="96" />
+
 # Portfolio
 
 **A portfolio that boots like an operating system.**
